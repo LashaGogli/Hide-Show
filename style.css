@@ -8,13 +8,16 @@
 }
 .transperentDiv{
     background-color: white;
-    width: 250px;
+    width: 0px;
     height: 55px;
-    display: none;
+    /* display: none; */
+    transition:  all 0.5s;
+    
  
 }
 .btn{
-    display: block;
+    /* display: block; */
+    width: 250px;
 }
 .Search{
     width: 100%;
